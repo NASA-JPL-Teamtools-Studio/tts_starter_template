@@ -1,7 +1,7 @@
 # tts_starter_template
 A starter repository to help users quickly set up a Teamtools Studio project with common structure, configs, and package scaffolding. 
 
-![Project logo](https://github.com/orgs/NASA-JPL-Teamtools-Studio/teamtools_documentation/blob/main/docs/images/tts_image_artifacts/tts_starter_template.png)
+![Project logo](https://github.com/NASA-JPL-Teamtools-Studio/teamtools_documentation/blob/main/docs/images/tts_image_artifacts/tts_starter_template.png)
 
 ## About Teamtools Studio
 
