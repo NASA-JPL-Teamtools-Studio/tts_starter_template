@@ -1,15 +1,9 @@
-Welcome to the Teamtools Starter Template documentation!
-=============================================================
+Welcome to My Professional Portfolio
+====================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Documents:
 
-   foo
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   resume.md
+   cv.md

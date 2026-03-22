@@ -1,71 +1,38 @@
-# TTS-specifc add ons
-from pathlib import Path
-from datetime import datetime
-from setuptools_scm import get_version
-import toml
-
-# Configuration file for the Sphinx documentation builder.
-#
-# This file only contains a selection of the most common options. For a full
-# list see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Path setup --------------------------------------------------------------
-
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
-#
-
 import os
 import sys
-import importlib.metadata
-sys.path.insert(0, os.path.abspath('..'))
+from datetime import datetime
 
-# -- Project information -----------------------------------------------------
+sys.path.insert(0, os.path.abspath('../src'))
 
-pyproject = toml.load(Path(__file__).parent.parent.joinpath("pyproject.toml"))
-project = pyproject["project"]["name"]
-release = get_version(root='..', relative_to=__file__)
-version = '.'.join(release.split('.')[:2])
+project = 'Matt Muszynski Resume'
+copyright = f'{datetime.now().year}, Matt Muszynski'
+author = 'Matt Muszynski'
 
-copyright = f'{datetime.now().strftime('%Y')} JPL'
-author = 'JPL Teamtools Studio'
+extensions = [
+    'myst_parser',
+    'sphinx.ext.autodoc',
+    'sphinx_simplepdf',  # The pure-Python CSS-based PDF builder
+]
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
-# -- General configuration ---------------------------------------------------
-
-# Add any Sphinx extension module names here, as strings. They can be
-# extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
-# ones.
-extensions = ['sphinx.ext.autodoc']
-
-# Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
-
-# List of patterns, relative to source directory, that match files and
-# directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-# The master toctree document.
-master_doc = 'index'
-
-pygments_style = 'sphinx'
-# html_theme = 'nature'
-# html_theme = 'sphinx_material'
-html_theme = 'pydata_sphinx_theme'
-
-# -- Options for HTML output -------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
+html_theme = 'sphinx_rtd_theme' 
 html_static_path = ['_static']
-html_css_files = ['bugfix.css']
-html_copy_source = False
-html_show_sourcelink = False
+
+# -- Options for SimplePDF ---------------------------------------------------
+
+simplepdf_vars = {
+    'primary': '#000000',
+    'links': '#0000ee',
+    # Adjust your page margins here!
+    'page-margin-top': '0.5in',
+    'page-margin-bottom': '0.5in',
+    'page-margin-left': '0.5in',
+    'page-margin-right': '0.5in',
+}
+
+# Tell it to use a custom CSS file to override Sphinx defaults
+simplepdf_custom_css = '_static/resume_style.css'
