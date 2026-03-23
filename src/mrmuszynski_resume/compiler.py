@@ -19,7 +19,7 @@ def build_resume():
     p strong { font-size: 10.5pt; color: #000; }
 
     /* Tighter bullet lists */
-    ul { margin-top: 2pt; margin-bottom: 6pt; padding-left: 1.2rem; }
+    ul { margin-top: 2pt; margin-bottom: 12pt; padding-left: 1.2rem; }
     li { margin-bottom: 1pt; } 
     """
 
