@@ -45,41 +45,40 @@ Defined by extreme adaptability and a proven record across radically disparate f
 
 **Operability and Flight System Operations Engineer: Mars Sample Return/Sample Retrieval Lander (MSR/SRL)** | 2022-2025
 
-* Represented the SRL Mission System team in meetings with Flight System Engineers
-* Advocated for operability features to be included in SRL flight software design documents and requirements
-* Participated in requirement development for SRL Mission System
-* Served as customer representative/product lead translating needs between flight system, robotics, and ground software development teams
-* Architected sustainable strategy for contributing, sharing, and maintaining user-developed software
+* Served as customer representative and product lead, translating needs between flight system, robotics, and ground software development teams.
+* Represented the SRL Mission System team in meetings with Flight System Engineers, advocating for operability features in design documents and requirements.
+* Authored and presented strategic proposals to project leadership, successfully securing Planning & Execution (P&E) oversight in "cradle-to-grave" teamtool development.
+* Conducted and presented major trade studies defining the mission's approach to Dictionary Viewing, End of Pass Processing, and Rule-Based Data Analysis.
+* Demonstrated the operational value of advanced ground tools by presenting Mars 2020 "Round Trip Tracking" architectures to the Surface Phase team.
+* Analyzed and evaluated new Flight Software Core Product Line (FCPL) sequencing constructs to determine their impact on sequence validation.
 
 **Downlink Systems Engineer: Europa Clipper** | 2024–2025
 
-* Served as customer representative/product lead between spacecraft subsystem teams and ground software development teams
-* Systems engineered Jupyter Notebook automated flight data analysis.
-* Managed cross-cutting last mile software (Teamtools) used by spacecraft operators
-* Organized and facilitated Teamtools Working Group
-* Conducted on-console flight ops during commissioning phase.
+* Served as customer representative/product lead between spacecraft subsystem teams and ground software development teams.
+* Systems engineered Jupyter Notebook automated flight data analysis and managed cross-cutting last-mile software (Teamtools) used by operators.
+* Prototyped a "Predicts vs. Actuals" tracking framework to provide Mission Managers with a streamlined, drill-down dashboard for rapid vehicle state assessment.
+* Developed comprehensive Requirements-to-Functions mappings to scope Verification & Validation (V&V) and late-stage implementation for downlink operations.
+* Organized and facilitated the Teamtools Working Group.
 
 **Downlink Systems Engineer: Mars 2020** | 2022-2024
 
-* Served as customer representative/product lead between all operations teams and ground software development teams
-* Translated operator needs to software developers
-* Translated software development capabilities to operators
-* Negotiated triage of capabilities too numerous to complete within budgets
+* Served as customer representative/product lead between all operations teams and ground software development teams.
+* Translated operator needs to software developers and software development capabilities to operators, negotiating triage of capabilities within budgets.
+* Developed and delivered comprehensive "End of Pass" (EOP) training for downlink operators, covering complex data flow pipelines (Rover to AWS), Dockerized Jupyter Notebook execution, and automated Jenkins deployments.
+* Organized and facilitated the Teamtools Working Group to support Onboard Planner phase of the surface mission.
 
 **Flight Rule Development Lead: NASA ISRO Synthetic Aperture Radar (NISAR)** | 2023–2024
 
-* Prepared Flight Rule Dictionary for flight; assessed rules for criticality, enforcement, and operability.
-* Worked with subject matter experts to translate draft flight rules into forms that could be easily and effectively implemented
-* Negotiated with ground software developers for impactful implementation under schedule constraints.
-* Ported Europa Clipper's FRESH Python library to automate checks that otherwise would have fallen through the cracks
-* Developed a Jira project for tracking waivers of NISAR flight rules.
-* Organized and ran Flight Rule Working Group
+* Prepared Flight Rule Dictionary for flight; assessed rules for criticality, enforcement, and operability alongside subject matter experts.
+* Overhauled a bottlenecked flight rule update process by establishing the Flight Rule Working Group (FRWG) and a Jira tracking system.
+* Negotiated with ground software developers for impactful implementation under tight schedule constraints.
+* Ported Europa Clipper's FRESH Python library to automate rule checks that otherwise would have fallen through the cracks.
 
 **Command and Telemetry Dictionary Engineer (Surface Flight Software): Mars 2020** | 2018-2023
 
-* Technical owner of command/telemetry dictionaries for surface operations
-* Worked with ~20 subsystem teams to accept inputs and merge into a single dictionary used in test and flight
-* Re-engineered change management system to remove dictionary artifacts from Doors Next Generation and into open source toolchain
+* Technical owner of command/telemetry dictionaries for surface operations.
+* Worked with ~20 subsystem teams to accept inputs and merge into a single dictionary used in test and flight.
+* Transitioned dictionary artifacts from IBM DOORS Next Generation into an open-source toolchain by re-engineering the change management system.
 
 
 ### Ground Software Engineering & Modernization
